@@ -1,0 +1,21 @@
+[
+{
+  "directory": "/home/penguin/Learn/LearnTCPIP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DNDEBUG", "-o", "build/.objs/Client/linux/x86_64/release/src/hello_client.c.o", "src/hello_client.c"],
+  "file": "src/hello_client.c"
+},
+{
+  "directory": "/home/penguin/Learn/LearnTCPIP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DNDEBUG", "-o", "build/.objs/LearnTCPIP/linux/x86_64/release/src/hello_client.c.o", "src/hello_client.c"],
+  "file": "src/hello_client.c"
+},
+{
+  "directory": "/home/penguin/Learn/LearnTCPIP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DNDEBUG", "-o", "build/.objs/LearnTCPIP/linux/x86_64/release/src/hello_server.c.o", "src/hello_server.c"],
+  "file": "src/hello_server.c"
+},
+{
+  "directory": "/home/penguin/Learn/LearnTCPIP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-DNDEBUG", "-o", "build/.objs/Server/linux/x86_64/release/src/hello_server.c.o", "src/hello_server.c"],
+  "file": "src/hello_server.c"
+}]

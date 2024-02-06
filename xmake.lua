@@ -1,8 +1,19 @@
 add_rules("mode.debug", "mode.release")
 
 target("LearnTCPIP")
-    set_kind("binary")
-    add_files("src/*.cpp")
+set_kind("binary")
+set_toolchains("gcc")
+add_files("src/*.c")
+
+target("Server")
+set_kind("binary")
+set_toolchains("gcc")
+add_files("src/hello_server.c")
+
+target("Client")
+set_kind("binary")
+set_toolchains("gcc")
+add_files("src/hello_client.c")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
@@ -72,4 +83,3 @@ target("LearnTCPIP")
 --
 -- @endcode
 --
-
